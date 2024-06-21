@@ -1,34 +1,25 @@
 {
-  "name": "app",
+  "name": "todo-list-typescript",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Author: Cu Nguyen &lt;[cunguyen.dev@gmail.com](cnguyen.dev@gmail.com)&gt;",
+  "main": ".eslintrc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "rm -rf dist && rm -rf .cache && parcel src/index.html --no-cache --no-source-maps",
-    "build": "rm -rf build && rm -rf .cache && parcel build src/index.html --no-cache --no-source-maps --out-dir build/",
-    "reset": "rm -rf build && rm -rf .cache && rm -rf dist && rm -rf node_modules"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.33.0",
-    "@typescript-eslint/parser": "^2.33.0",
-    "eslint": "^7.0.0",
-    "eslint-config-airbnb-typescript-prettier": "^2.1.1",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.3",
-    "parcel-bundler": "^1.12.4",
-    "prettier": "^2.0.5",
-    "sass": "^1.25.0",
-    "typescript": "^3.8.3"
-  },
   "dependencies": {
-    "autoprefixer": "^9.7.6"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/g-codehub/typescript-base-app.git"
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^9.5.0",
+    "eslint-config-airbnb-typescript-prettier": "^5.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^3.3.2",
+    "sass": "^1.77.6",
+    "typescript": "^5.5.2"
   }
 }
